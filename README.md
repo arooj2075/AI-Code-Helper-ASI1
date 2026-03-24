@@ -14,12 +14,6 @@ An interactive AI code assistant using **ASI-1 API**, with a ChatGPT-style chat 
 
 ---
 
-## Demo
-
-![Demo Screenshot](demo.png)  
-*You can replace `demo.png` with a GIF showing the app in action.*
-
----
 
 ## Installation
 
