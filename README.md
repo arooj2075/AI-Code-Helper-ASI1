@@ -24,10 +24,11 @@ git clone https://github.com/arooj2075/AI-Code-Helper-ASI1.git
 Open the folder and locate index.html.
 Open index.html in your browser.
 Add your ASI-1 API key in script.js:
-const API_KEY = "YOUR_ASI1_KEY_HERE";
+const API_KEY = "YOUR_API_KEY_HERE";
 
 ⚠️ The app will not work without a valid ASI-1 API key.
-
+Note: API key is not included for security reasons.
+Please add your own ASI-1 API key in script.js to run the project.
 ## Usage
 
 Type your coding problem in the input box.
