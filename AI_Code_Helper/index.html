@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Helper</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    
+    <div id="splash" class="splash-container">
+        <h1>AI Code Helper</h1>
+        <p>Generate, Refine & Explain Code using ASI-1 AI</p>
+        <button id="startBtn">Start</button>
+    </div>
+
+    
+    <div id="mainApp" class="container hidden">
+        <div class="page-header">
+            <h1>AI Code Helper Workspace</h1>
+            <div class="header-line"></div>
+        </div>
+
+        <textarea id="userInput" placeholder="Describe your coding problem here..."></textarea>
+        
+        <div class="buttons">
+            <button id="submitBtn">Generate Code</button>
+            <button id="improveBtn">Refine Solution</button>
+            <button id="explainBtn">Explain & Document</button>
+            <button id="copyBtn">Copy Code</button>
+            <button id="downloadBtn">Download</button>
+            <button id="clearChatBtn">Clear Chat</button>
+        </div>
+        
+        <h2>Output:</h2>
+        <pre id="aiOutput" class="language-javascript"><code></code></pre>
+
+        <div id="loadingDots" class="loading">⠋ ⠙ ⠹ ⠸ ⠼ ⠴ ⠦ ⠧ ⠏</div>
+
+        <h2>Chat History:</h2>
+        <div id="chatContainer" class="chat-container"></div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
